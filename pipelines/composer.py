@@ -6,9 +6,9 @@ import numpy as np
 import re
 import json
 
-from autocrit.pipelines.datatypes import PipelineState, NestedPipelineState, ComposerStoreElement
-from autocrit.pipelines.utils import jsonl_to_dict, dict_to_jsonl, same_state
-from autocrit.pipelines.pipelines import InferenceComponent, InferencePipeline
+from pipelines.datatypes import PipelineState, NestedPipelineState, ComposerStoreElement
+from pipelines.utils import jsonl_to_dict, dict_to_jsonl, same_state
+from pipelines.pipelines import InferenceComponent, InferencePipeline
 
 
 class InferenceComposer:

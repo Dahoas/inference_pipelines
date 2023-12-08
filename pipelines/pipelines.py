@@ -6,8 +6,8 @@ import numpy as np
 import re
 import json
 
-from autocrit.pipelines.datatypes import PipelineState, NestedPipelineState
-from autocrit.pipelines.utils import jsonl_to_dict, dict_to_jsonl, same_state
+from pipelines.datatypes import PipelineState, NestedPipelineState
+from pipelines.utils import jsonl_to_dict, dict_to_jsonl, same_state
 
 
 class InferenceComponent:

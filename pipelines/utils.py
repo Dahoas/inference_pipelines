@@ -1,4 +1,4 @@
-from autocrit.pipelines.datatypes import PipelineState, NestedPipelineState, ComposerStoreElement
+from pipelines.datatypes import PipelineState, NestedPipelineState, ComposerStoreElement
 
 
 def dict_to_jsonl(d):

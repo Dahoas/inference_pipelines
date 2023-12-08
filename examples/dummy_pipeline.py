@@ -1,8 +1,8 @@
 from typing import List, Dict, Any, Optional
 import re
 
-from autocrit.pipelines.pipelines import InferenceComponent, InferencePipeline, PipelineState
-from autocrit.pipelines.composer import InferenceComposer
+from pipelines.pipelines import InferenceComponent, InferencePipeline, PipelineState
+from pipelines.composer import InferenceComposer
 
 
 class DummySentence(InferenceComponent):
